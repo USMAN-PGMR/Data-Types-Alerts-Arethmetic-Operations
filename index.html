@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-1st</title>
+    <!-- link bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+</head>
+<body style="background-color: rgb(240, 240, 240)">
+    <nav class="navbar " style="background-color: rgba(20, 20, 58, 0.849); ">
+        <div class="container">
+          <a class="navbar-brand" style="color: white">Assignment  &nbsp;&nbsp;&nbsp;&nbsp; Chapter 1-7</a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <main >
+        <div class="container pt-4 pb-2 text-center">
+            <h4>Chapter # 1-7 |Introduction to Javascript|Data Types|Alerts|Arethmetic Operations</h4>
+            <hr class="mt-4">
+        </div>
+        <div class="container md-container sm-container border  rounded border-dark text-center" style="width: 92%;"> 
+            <div class="row pt-3 ">
+                <div class="col pt-2 ">
+                    <!-- <button type="button" class="btn btn-danger btn-sm">Small button</button> -->
+                    <button type="button" class="btn btn-danger btn-sm mt-2 " id="alertName">Alert Name</button>
+                    <button type="button" class="btn btn-danger btn-sm mt-2" id="alertNumber">Alert Number</button>
+                    <button type="button" class="btn btn-danger btn-sm mt-2" id="variableNames">Show Variable Numes</button>
+                    <button type="button" class="btn btn-danger btn-sm mt-2" id="camelCase">Show Camelcase Example</button>
+                    <button type="button" class="btn btn-danger btn-sm mt-2" id="sumNumber">Sum 2 Numbers</button>
+                    <button type="button" class="btn btn-danger btn-sm mt-2" id="subNumber">Subtract 2 Numbers</button>
+                    <button type="button" class="btn btn-danger btn-sm mt-2" id="mulNumber">Multiply 2 Numbers</button>
+                </div>
+            </div>
+            <div class="row  pb-4">
+                <div class="col">
+                    <button type="button" class="btn btn-danger btn-sm mt-2 " id="divNumber">Divide 2 Numbers</button>
+                    <button type="button" class="btn btn-danger btn-sm mt-2" id="calculateNumber">Calculate some Numbers</button>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center pt-5">
+            <h4>Original Statement</h4>
+        </div>
+        <div class="container  border text-center border border-dark rounded " style="width: 92%;">
+            <br>
+            <div id="statement"></div> 
+            <br>
+        </div>
+        <div class="container text-center mt-2">
+            <button type="button" class="btn btn-outline-dark" id="clearOne">clear statement</button>
+        </div>
+        <div class="container text-center pt-5">
+            <h4>Out put/Result</h4>
+        </div>
+        <div class="container  text-center border border-dark rounded" style="width: 92%;">
+            <br>
+            <div id="output"></div>
+            <br>
+        </div>
+        <div class="container text-center mt-2">
+            <button type="button" class="btn btn-outline-dark" id="clearTwo">clear statement</button>
+        </div>
+        <div class="container mt-5 text text-center">
+            <hr>
+            <button type="button" class="btn btn-danger btn-lg" id="clearAll">Clear All</button>
+        </div>
+      </main>
+        <footer style="background-color:rgba(20, 20, 58, 0.849) " class=" text-center   p-2  mt-2  text-capitalize ">
+            <i><p style="color:aliceblue" class="align-middle">&copy;<span id="year"></span> powered by usman</p></i>
+        </footer>
+    <!-- link boostrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- link custom js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
